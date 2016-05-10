@@ -196,6 +196,21 @@ open $URL</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>6D9AFC37-23D9-4C6B-ACA4-0A7D7D4AF53A</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -213,21 +228,6 @@ addr</string>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>19ED8885-3B00-4D84-AF8C-CB9C88405BCC</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>6D9AFC37-23D9-4C6B-ACA4-0A7D7D4AF53A</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -351,7 +351,7 @@ addr</string>
 				<integer>100</integer>
 				<key>script</key>
 				<string>var i = JSON.parse('{query}')
-var addr = `${i.en_doro} ${i.en_common}`
+var addr = `${i.en_doro} ${i.en_common} ${i.postcode5}`
 
 addr</string>
 				<key>type</key>
