@@ -1,4 +1,4 @@
-# alfred-kozip-workflow
+# alfred-kozip-workflow [![Github All Releases](https://img.shields.io/github/downloads/kyungw00k/alfred-kozip-workflow/total.svg?maxAge=2592000)](https://github.com/kyungw00k/alfred-kozip-workflow) [![Analytics](https://ga-beacon.appspot.com/UA-81923236-1/welcome-page)](https://github.com/kyungw00k/alfred-kozip-workflow/) 
 > 도로명/지번 한영 주소 검색을 Alfred에서!
 
 ![](screenshot/alfred-kozip-usage-cover.gif)
