@@ -4,7 +4,12 @@
 ![](screenshot/alfred-kozip-usage-cover.gif)
 
 ## 설치
+```
+npm install --global alfred-kozip
+```
+
 [Release 페이지](https://github.com/kyungw00k/alfred-kozip-workflow/releases/)에서 내려 받아 사용하세요.
+
 
 ## 사용법
 `kz 검색어` 누른 후 맘에 드는 주소에 `Enter` 키(또는 단축기)를 누르면 클립보드로 주소를 복사한다. 

@@ -1,0 +1,39 @@
+{
+  "name": "alfred-kozip",
+  "version": "1.0.2",
+  "description": "도로명/지번 한영 주소 검색을 Alfred에서!",
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyungw00k/alfred-kozip-workflow.git"
+  },
+   "files": [
+    "icon.png",
+    "info.plist",
+    "postcode.js",
+    "unorm.js"
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0"
+  },
+  "keywords": [
+    "korean",
+    "zipcode",
+    "alfred",
+    "alfred-workflow",
+    "workflow",
+    "alfy"
+  ],
+  "author": "parksama@gmail.com",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/kyungw00k/alfred-kozip-workflow/issues"
+  },
+  "homepage": "https://github.com/kyungw00k/alfred-kozip-workflow#readme"
+}
