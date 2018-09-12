@@ -13,11 +13,10 @@
     "type": "git",
     "url": "git+https://github.com/kyungw00k/alfred-kozip-workflow.git"
   },
-   "files": [
+  "files": [
     "icon.png",
     "info.plist",
-    "postcode.js",
-    "unorm.js"
+    "postcode.js"
   ],
   "dependencies": {
     "alfy": "^0.6.0"
@@ -31,7 +30,7 @@
     "alfy"
   ],
   "author": "parksama@gmail.com",
-  "license": "GPL-2.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/kyungw00k/alfred-kozip-workflow/issues"
   },

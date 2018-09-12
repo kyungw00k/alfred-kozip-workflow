@@ -34,5 +34,4 @@ npm install --global alfred-kozip
 
 ## Built with 
 * [Postcodify, 오픈소스 도로명 주소 검색 API](https://postcodify.poesis.kr)
-* [unorm.js](https://github.com/walling/unorm)
 * [우정사업본부 > 디자인표준편람 링크](http://www.koreapost.go.kr/hongbo/postci/koreapost.html)</a>

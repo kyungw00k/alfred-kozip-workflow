@@ -17,6 +17,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -25,6 +27,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>42A12D4B-E202-4ABE-AB65-E7609559B214</key>
@@ -36,6 +40,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>787336F7-B6D9-4EF8-8CC7-14983BF876FF</key>
@@ -47,6 +53,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -55,6 +63,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>E066B648-7305-4BD0-B684-0FC07BF13083</key>
@@ -66,6 +76,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -74,6 +86,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>E85C60CA-F3AA-48F9-9EF6-B4CE0B03F501</key>
@@ -85,6 +99,8 @@
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>지도에서 보기</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -93,6 +109,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -101,6 +119,8 @@
 				<integer>8388608</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -109,6 +129,8 @@
 				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -117,6 +139,8 @@
 				<integer>131072</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>F887588E-C88C-4C51-A7D1-8AA719D770F7</key>
@@ -128,6 +152,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -136,6 +162,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
@@ -162,6 +190,10 @@ var address = `${item.ko_common} ${item.ko_doro} ${item.building_name ? '(' + it
 var url = `http://map.daum.net/?q=${encodeURIComponent(address)}`
 
 url</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>7</integer>
 			</dict>
@@ -170,7 +202,7 @@ url</string>
 			<key>uid</key>
 			<string>42A12D4B-E202-4ABE-AB65-E7609559B214</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -183,15 +215,19 @@ url</string>
 				<string>URL="{query}"
 
 open $URL</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.script</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>2368B85E-0914-488C-81DE-8A83D146A3AE</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -200,13 +236,15 @@ open $URL</string>
 				<false/>
 				<key>clipboardtext</key>
 				<string>{query}</string>
+				<key>transient</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
 			<string>6D9AFC37-23D9-4C6B-ACA4-0A7D7D4AF53A</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -221,6 +259,10 @@ open $URL</string>
 var addr = `${i.ko_common} ${i.ko_doro} ${i.building_name ? '(' + i.building_name + ')' : ''} ${i.postcode5}`
 
 addr</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>7</integer>
 			</dict>
@@ -229,11 +271,17 @@ addr</string>
 			<key>uid</key>
 			<string>19ED8885-3B00-4D84-AF8C-CB9C88405BCC</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -269,16 +317,13 @@ var require = function (path) {
   return module.exports;
 };
 
-//
-// Use unorm for `String.prototype.normalize` polyfill
-// (https://github.com/walling/unorm/issues/6)
-//
-
-require('./unorm.js')
-
 var daumPostCode = require('./postcode.js')
 
 daumPostCode("{query}")</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
 				<string>건물번호, 번지를 함께 입력하시면 더욱 정확한 결과가 검색됩니다. 예) 판교역로 235</string>
 				<key>title</key>
@@ -293,7 +338,7 @@ daumPostCode("{query}")</string>
 			<key>uid</key>
 			<string>E85C60CA-F3AA-48F9-9EF6-B4CE0B03F501</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -302,11 +347,7 @@ daumPostCode("{query}")</string>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
 				<true/>
-				<key>output</key>
-				<integer>0</integer>
 				<key>removeextension</key>
-				<false/>
-				<key>sticky</key>
 				<false/>
 				<key>text</key>
 				<string>{query}</string>
@@ -318,7 +359,7 @@ daumPostCode("{query}")</string>
 			<key>uid</key>
 			<string>DF97BCF9-6E35-4CE3-8B91-3D286030DF01</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -332,6 +373,10 @@ daumPostCode("{query}")</string>
 var addr = `${i.ko_common} ${i.ko_jibeon} ${i.building_name} ${i.postcode6.replace(/(\d\d\d)(\d\d\d)/, '$1-$2')}`
 
 addr</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>7</integer>
 			</dict>
@@ -340,7 +385,7 @@ addr</string>
 			<key>uid</key>
 			<string>F887588E-C88C-4C51-A7D1-8AA719D770F7</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -354,6 +399,10 @@ addr</string>
 var addr = `${i.en_doro} ${i.en_common} ${i.postcode5}`
 
 addr</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>7</integer>
 			</dict>
@@ -362,7 +411,7 @@ addr</string>
 			<key>uid</key>
 			<string>787336F7-B6D9-4EF8-8CC7-14983BF876FF</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -376,6 +425,10 @@ addr</string>
 var addr = `${i.en_jibeon} ${i.en_common} ${i.postcode6.replace(/(\d\d\d)(\d\d\d)/, '$1-$2')}`
 
 addr</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>7</integer>
 			</dict>
@@ -384,7 +437,7 @@ addr</string>
 			<key>uid</key>
 			<string>E066B648-7305-4BD0-B684-0FC07BF13083</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -393,46 +446,64 @@ addr</string>
 	<dict>
 		<key>19ED8885-3B00-4D84-AF8C-CB9C88405BCC</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>140</real>
 		</dict>
 		<key>2368B85E-0914-488C-81DE-8A83D146A3AE</key>
 		<dict>
+			<key>xpos</key>
+			<integer>700</integer>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
 		<key>42A12D4B-E202-4ABE-AB65-E7609559B214</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
 		<key>6D9AFC37-23D9-4C6B-ACA4-0A7D7D4AF53A</key>
 		<dict>
+			<key>xpos</key>
+			<integer>700</integer>
 			<key>ypos</key>
 			<real>140</real>
 		</dict>
 		<key>787336F7-B6D9-4EF8-8CC7-14983BF876FF</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>380</real>
 		</dict>
 		<key>DF97BCF9-6E35-4CE3-8B91-3D286030DF01</key>
 		<dict>
+			<key>xpos</key>
+			<integer>700</integer>
 			<key>ypos</key>
 			<real>260</real>
 		</dict>
 		<key>E066B648-7305-4BD0-B684-0FC07BF13083</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>500</real>
 		</dict>
 		<key>E85C60CA-F3AA-48F9-9EF6-B4CE0B03F501</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>240</real>
 		</dict>
 		<key>F887588E-C88C-4C51-A7D1-8AA719D770F7</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>260</real>
 		</dict>
