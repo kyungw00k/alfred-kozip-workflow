@@ -1,6 +1,6 @@
 {
   "name": "alfred-kozip",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "도로명/지번 한영 주소 검색을 Alfred에서!",
   "scripts": {
     "postinstall": "alfy-init",
